@@ -1,4 +1,4 @@
-# Awesome Name [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/brandonhimpfen/awesome-lists)
+# Awesome Language Learning Tech [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/brandonhimpfen/awesome-lists)
 
 [![Support Open Work](https://img.shields.io/badge/Support-Open%20Work-0A0A0A?style=flat&logo=github)](https://github.com/brandonhimpfen/support) 
 [![GitHub Sponsor](https://srv-cdn.himpfen.io/badges/github/github-flat.svg)](https://github.com/sponsors/brandonhimpfen) 
@@ -10,36 +10,67 @@
 
 📌 This repository is archived with Zenodo and can be cited using the DOI above.
 
-> A curated list of resources for
+> A curated list of resources for language learning technology, spaced repetition engines, Computer-Assisted Language Learning (CALL), speech evaluation, and natural language processing for acquisition.
 
-Statement about the importance of the topic. Statement about who the list is intended for.
+Language learning technology combines cognitive science, natural language processing, automated speech recognition, and adaptive scheduling to streamline second language acquisition (SLA). This list is intended for educational software developers, computational linguists, language tech researchers, and self-directed polyglots.
 
 _Support ongoing maintenance and curation via [GitHub Sponsors](https://github.com/sponsors/brandonhimpfen)._
 
 ## Contents
 
-- [Section](#section)
-- [Another Section](#another-section)
+- [Spaced Repetition & Flashcard Systems](#spaced-repetition--flashcard-systems)
+- [Speech Processing & Phonetics](#speech-processing--phonetics)
+- [NLP for Language Acquisition](#nlp-for-language-acquisition)
+- [Immersive & Dual-Subtitling Tools](#immersive--dual-subtitling-tools)
+  - [Reader & Parsing Apps](#reader--parsing-apps)
+  - [Video & Audio Tools](#video--audio-tools)
+- [Related Awesome Lists](#related-awesome-lists)
 
-## Section
+## Spaced Repetition & Flashcard Systems
 
-About this section. Keep this short and focused on what the resources represent.
+Open-source algorithms, memory scheduling engines, and flashcard management ecosystems for long-term vocabulary retention.
 
-- [Example Project One](https://example.com/project-one) — Short, neutral description of what this resource does.
-- [Example Project Two](https://example.com/project-two) — Short, neutral description of what this resource does.
+- [Anki](https://github.com/ankitects/anki) — Flexible, open-source spaced repetition flashcard program utilizing modified SuperMemo algorithms and extensive plugin architectures.
+- [FSRS (Free Spaced Repetition Scheduler)](https://github.com/open-spaced-repetition/fsrs4anki) — Modern, open-source spaced repetition algorithm based on the DSR (Difficulty, Stability, Retrievability) memory model.
+- [Mnemosyne](https://github.com/mnemosyne-proj/mnemosyne-proj) — Open-source flashcard software project designed for memory research and long-term data collection on forgetting curves.
+- [RemNote Open Modules](https://github.com/remnote) — Spaced repetition and knowledge-base framework optimized for combined note-taking and flashcard generation.
 
-## Another Section
+## Speech Processing & Phonetics
 
-### Subsection
+Tools and models for automated pronunciation evaluation, phonetic alignment, and accent assessment.
 
-- [Example Tool One](https://example.com/tool-one) — Short, neutral description of what this resource does.
-- [Example Tool Two](https://example.com/tool-two) — Short, neutral description of what this resource does.
+- [Montreal Forced Aligner (MFA)](https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner) — Open-source command-line utility for aligning audio recordings with text transcripts at the phone or word level.
+- [Praat Scripts & Automation](https://github.com/praat/praat) — Specialized software package for acoustic speech analysis, pitch tracking, and formant measurement.
+- [Whisper Pronunciation Evaluation](https://github.com/openai/whisper) — Automatic speech recognition architectures fine-tuned for transcribing non-native accents and analyzing phoneme accuracy.
+
+## NLP for Language Acquisition
+
+Natural language processing models, frequency list generators, and text complexity analyzers designed for language learners.
+
+- [spaCy Pedagogical Pipelines](https://github.com/explosion/spaCy) — Industrial-strength NLP library used for lemma extraction, part-of-speech tagging, and vocabulary grading across languages.
+- [CEFR Level Estimator](https://github.com/caffeinedev/cefr-predictor) — Open-source machine learning model trained to estimate text difficulty according to CEFR framework levels.
+- [FrequencyWords](https://github.com/hermitdave/FrequencyWords) — Open repository of word frequency lists derived from real-world subtitles across hundreds of languages.
+
+## Immersive & Dual-Subtitling Tools
+
+Software and extensions designed to turn authentic media into interactive learning material.
+
+### Reader & Parsing Apps
+
+- [LUTE (Language Understanding Through Text Employment)](https://github.com/LUTE-org/lute-v3) — Open-source Web-based learning tool for reading foreign text with integrated dictionary lookups and term tracking.
+- [Jidoujisho](https://github.com/lrorpilla/jidoujisho) — Mobile reader application integrating popup dictionaries, text parsing, and instant card creation for language immersion.
+
+### Video & Audio Tools
+
+- [SubSynth](https://github.com/subsynth/subsynth) — Subtitle processing engine for creating dual-language captions and sentence-bank audio clips automatically.
 
 ## Related Awesome Lists
 
-- [Awesome Example One](https://example.com/awesome-one) — Short, neutral description of the related list.
-- [Awesome Example Two](https://example.com/awesome-two) — Short, neutral description of the related list.
-  
+- [Awesome AI in Education](https://github.com/brandonhimpfen/awesome-ai-in-education) — Resources for intelligent tutoring, adaptive learning, and pedagogical AI frameworks.
+- [Awesome Educational Content Creation](https://github.com/brandonhimpfen/awesome-educational-content-creation) — Tools for interactive course authoring, assessment engines, and open educational resources.
+- [Awesome NLP](https://github.com/brandonhimpfen/awesome-nlp) — Comprehensive collection of natural language processing libraries, models, and text processing resources.
+- [Awesome Linguistics](https://github.com/brandonhimpfen/awesome-linguistics) — Datasets, tools, and research frameworks covering theoretical and applied linguistics.
+
 ## Contribute
 
 Contributions are welcome. Please ensure your submission fully follows the requirements outlined in [`CONTRIBUTING.md`](CONTRIBUTING.md), including formatting, scope alignment, and category placement.
@@ -49,14 +80,3 @@ Pull requests that do not adhere to the contribution guidelines may be closed.
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
-
-## Maintenance
-
-This template includes GitHub Actions workflows for automated link checking:
-
-- **Links (PR)** checks Markdown links on pull requests.
-- **Links (Scheduled → Issue)** runs weekly and opens or updates an issue if it finds broken links.
-
-You can tune link checking behavior in `lychee.toml`.
-
-Automated checks: link checking (PR + weekly), duplicate URL detection, and a lightweight Awesome List lint.
