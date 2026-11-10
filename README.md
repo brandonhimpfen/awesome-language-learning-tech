@@ -8,8 +8,6 @@
 [![X](https://srv-cdn.himpfen.io/badges/twitter/twitter-flat.svg)](https://x.com/ListsAwesome) 
 [![Facebook](https://srv-cdn.himpfen.io/badges/facebook-pages/facebook-pages-flat.svg)](https://www.facebook.com/awesomelists)
 
-📌 This repository is archived with Zenodo and can be cited using the DOI above.
-
 > A curated list of resources for language learning technology, spaced repetition engines, Computer-Assisted Language Learning (CALL), speech evaluation, and natural language processing for acquisition.
 
 Language learning technology combines cognitive science, natural language processing, automated speech recognition, and adaptive scheduling to streamline second language acquisition (SLA). This list is intended for educational software developers, computational linguists, language tech researchers, and self-directed polyglots.
